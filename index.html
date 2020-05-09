@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Slider</h1>
+  </header>
+
+  <div class="container">
+    <div class="slider-wrapper" data-slider-wrapper>
+      <div class="slider" data-slider>
+        <div class="slider__slide" data-slide="1">
+          <div class="slider__slide_content">1</div>
+        </div>
+        <div class="slider__slide" data-slide="2">
+          <div class="slider__slide_content">2</div>
+        </div>
+        <div class="slider__slide" data-slide="3">
+          <div class="slider__slide_content">3</div>
+        </div>
+        <div class="slider__slide" data-slide="4">
+          <div class="slider__slide_content">4</div>
+        </div>
+        <div class="slider__slide" data-slide="5">
+          <div class="slider__slide_content">5</div>
+        </div>
+      </div>
+
+      <div class="slider-wrapper__buttons">
+        <button data-prev>Prev</button>
+        <button data-next>Next</button>
+      </div>
+
+      <div class="slider-wrapper__nav" data-slider-nav></div>
+    </div>
+
+    <div class="slider-wrapper" data-slider-wrapper>
+      <div class="slider" data-slider>
+        <div class="slider__slide" data-slide="1">
+          <div class="slider__slide_content" style="background-image: url(images/image_1.jpg);"></div>
+        </div>
+        <div class="slider__slide" data-slide="2">
+          <div class="slider__slide_content" style="background-image: url(images/image_2.jpg);"></div>
+        </div>
+        <div class="slider__slide" data-slide="3">
+          <div class="slider__slide_content" style="background-image: url(images/image_3.jpg);"></div>
+        </div>
+        <div class="slider__slide" data-slide="4">
+          <div class="slider__slide_content" style="background-image: url(images/image_4.jpg);"></div>
+        </div>
+        <div class="slider__slide" data-slide="5">
+          <div class="slider__slide_content" style="background-image: url(images/image_5.jpg);"></div>
+        </div>
+      </div>
+
+      <div class="slider-wrapper__buttons">
+        <button data-prev>Prev</button>
+        <button data-next>Next</button>
+      </div>
+
+      <div class="slider-wrapper__nav" data-slider-nav></div>
+    </div>
+  </div>
+  
+  <script src="slider.js"></script>
+</body>
+</html>
